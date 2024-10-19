@@ -9,3 +9,12 @@
         align-items: center !important;
     }
 }
+
+
+.user-list-section .active .user-list-arrow-icon{
+transform: rotate(180deg);
+}
+
+.user-list-section .active  , .user-list-section .active .collapsible-header {
+    background-color: rgb(240, 240, 240);
+}
